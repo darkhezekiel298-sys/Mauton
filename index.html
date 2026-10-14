@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#080810">
+    <meta name="description" content="MAUTON.EXE — Exploring cybersecurity, programming, web development and digital innovation.">
+    <title>MAUTON.EXE | Digital Universe</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+<div class="background-grid"></div>
+<div class="glow glow-one"></div>
+<div class="glow glow-two"></div>
+<header class="header">
+    <a href="#home" class="logo">MAUTON<span>.EXE</span></a>
+    <button class="menu-toggle" id="menuToggle"
+            aria-label="Open navigation" aria-expanded="false">
+        ☰
+    </button>
+    <nav class="navigation" id="navigation">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#cyberlab">Cyber Lab</a>
+        <a href="#techhub">Tech Hub</a>
+        <a href="#contact" class="nav-contact">Connect ↗</a>
+    </nav>
+</header>
+<main>
+    <!-- HERO -->
+    <section class="hero section" id="home">
+        <div class="hero-content">
+            <div class="status">
+                <span class="status-dot"></span>
+                INDEPENDENTLY BUILDING THE FUTURE
+            </div>
+            <p class="eyebrow">WELCOME TO MY DIGITAL UNIVERSE</p>
+            <h1>THINK BEYOND.<br>
+                <span class="gradient-text">BUILD WITHOUT LIMITS.</span>
+            </h1>
+            <p class="hero-description">
+                Exploring cybersecurity, building digital experiences,
+                and turning ambitious ideas into real projects.
+                This is where technology meets imagination.
+            </p>
+            <div class="hero-buttons">
+                <a href="#projects" class="button button-primary">
+                    EXPLORE PROJECTS ↗
+                </a>
+                <a href="#about" class="button button-outline">
+                    DISCOVER MAUTON
+                </a>
+            </div>
+            <div class="hero-note">
+                <span>CYBERSECURITY</span>
+                <span class="separator">/</span>
+                <span>DEVELOPMENT</span>
+                <span class="separator">/</span>
+                <span>INNOVATION</span>
+            </div>
+        </div>
+        <div class="terminal">
+            <div class="terminal-top">
+                <div class="terminal-dots">
+                    <span></span><span></span><span></span>
+                </div>
+                <p>mauton@universe:~</p>
+                <span class="terminal-version">v1.0</span>
+            </div>
+            <div class="terminal-body">
+                <p><span class="terminal-purple">root@mauton</span>:~$ whoami</p>
+                <p class="terminal-output">A future cybersecurity analyst.</p>
+                <p><span class="terminal-purple">root@mauton</span>:~$ mission</p>
+                <p class="terminal-output">Learn. Build. Secure. Innovate.</p>
+                <p><span class="terminal-purple">root@mauton</span>:~$ status</p>
+                <p class="terminal-success">● ONLINE — BUILDING THE FUTURE</p>
+                <p class="terminal-prompt">
+                    <span class="terminal-purple">root@mauton</span>:~$
+                    <span class="cursor">▋</span>
+                </p>
+            </div>
+        </div>
+        <a href="#about" class="scroll-indicator">
+            SCROLL TO EXPLORE <span>↓</span>
+        </a>
+    </section>
+    <!-- ABOUT -->
+    <section class="section content-section" id="about">
+        <div class="section-heading">
+            <p class="section-label">01 / THE PERSON BEHIND THE CODE</p>
+            <h2>Beyond The <span class="gradient-text">Interface.</span></h2>
+            <p class="section-intro">
+                I'm building my journey in technology one project at a time.
+                My goal is to understand how digital systems work,
+                create useful solutions, and learn how to protect them.
+            </p>
+        </div>
+        <div class="about-grid">
+            <article class="info-card about-card">
+                <span class="card-icon">⌘</span>
+                <h3>The Developer</h3>
+                <p>
+                    Learning to turn ideas into functional websites,
+                    applications, and digital experiences.
+                </p>
+            </article>
+            <article class="info-card about-card">
+                <span class="card-icon">⬡</span>
+                <h3>The Security Mindset</h3>
+                <p>
+                    Exploring networks, security principles, and
+                    responsible ways to understand digital threats.
+                </p>
+            </article>
+            <article class="info-card about-card">
+                <span class="card-icon">✳</span>
+                <h3>The Builder</h3>
+                <p>
+                    Experimenting, documenting what I learn,
+                    and developing ideas into practical projects.
+                </p>
+            </article>
+        </div>
+    </section>
+    <!-- PROJECTS -->
+    <section class="section content-section alternate-section" id="projects">
+        <div class="section-heading">
+            <p class="section-label">02 / SELECTED WORK</p>
+            <h2>Ideas Into <span class="gradient-text">Reality.</span></h2>
+            <p class="section-intro">
+                A growing collection of experiments, learning projects,
+                and digital products.
+            </p>
+        </div>
+        <div class="project-controls">
+            <button class="filter-button active" data-filter="all">All</button>
+            <button class="filter-button" data-filter="web">Web Development</button>
+            <button class="filter-button" data-filter="security">Cybersecurity</button>
+            <button class="filter-button" data-filter="tools">Tools</button>
+        </div>
+        <div class="projects-grid">
+            <article class="project-card" data-category="web">
+                <div class="project-visual visual-purple">
+                    <span class="project-number">PROJECT_001</span>
+                    <span class="project-symbol">&lt;/&gt;</span>
+                </div>
+                <div class="project-content">
+                    <p class="project-category">WEB DEVELOPMENT</p>
+                    <h3>MAUTON.EXE</h3>
+                    <p>
+                        My personal technology platform and
+                        developer portfolio.
+                    </p>
+                    <span class="project-status">● IN DEVELOPMENT</span>
+                </div>
+            </article>
+            <article class="project-card" data-category="security">
+                <div class="project-visual visual-red">
+                    <span class="project-number">PROJECT_002</span>
+                    <span class="project-symbol">⌑</span>
+                </div>
+                <div class="project-content">
+                    <p class="project-category">CYBERSECURITY</p>
+                    <h3>Cyber Learning Lab</h3>
+                    <p>
+                        A planned collection of safe security
+                        demonstrations and learning exercises.
+                    </p>
+                    <span class="project-status">● PLANNED</span>
+                </div>
+            </article>
+            <article class="project-card" data-category="tools">
+                <div class="project-visual visual-blue">
+                    <span class="project-number">PROJECT_003</span>
+                    <span class="project-symbol">⌘</span>
+                </div>
+                <div class="project-content">
+                    <p class="project-category">DEVELOPER TOOLS</p>
+                    <h3>Digital Toolbox</h3>
+                    <p>
+                        A future collection of useful browser-based
+                        utilities and productivity tools.
+                    </p>
+                    <span class="project-status">● PLANNED</span>
+                </div>
+            </article>
+        </div>
+        <p class="section-footnote">
+            These are initial project concepts. More projects will be added as they are developed.
+        </p>
+    </section>
+    <!-- CYBER LAB -->
+    <section class="section content-section" id="cyberlab">
+        <div class="section-heading">
+            <p class="section-label">03 / LEARN SECURITY</p>
+            <h2>Enter The <span class="gradient-text">Cyber Lab.</span></h2>
+            <p class="section-intro">
+                Cybersecurity starts with understanding.
+                Explore fundamental concepts and practise
+                responsible digital security.
+            </p>
+        </div>
+        <div class="lab-grid">
+            <article class="info-card lab-card">
+                <span class="card-icon">🔐</span>
+                <h3>Password Security</h3>
+                <p>
+                    Learn about password length, uniqueness,
+                    password managers, and multifactor authentication.
+                </p>
+                <span class="coming-soon">LEARNING MODULE</span>
+            </article>
+            <article class="info-card lab-card">
+                <span class="card-icon">🌐</span>
+                <h3>Network Fundamentals</h3>
+                <p>
+                    Explore IP addresses, DNS, HTTP, and
+                    the basics of how devices communicate.
+                </p>
+                <span class="coming-soon">LEARNING MODULE</span>
+            </article>
+            <article class="info-card lab-card">
+                <span class="card-icon">🧪</span>
+                <h3>Security Challenges</h3>
+                <p>
+                    Prepare for interactive quizzes and safe,
+                    beginner-friendly security exercises.
+                </p>
+                <span class="coming-soon">PLANNED</span>
+            </article>
+        </div>
+    </section>
+    <!-- TECH HUB -->
+    <section class="section content-section alternate-section" id="techhub">
+        <div class="section-heading">
+            <p class="section-label">04 / KNOWLEDGE BASE</p>
+            <h2>The <span class="gradient-text">Tech Hub.</span></h2>
+            <p class="section-intro">
+                Simple explanations, practical guides,
+                and notes from the journey of learning technology.
+            </p>
+        </div>
+        <div class="hub-grid">
+            <article class="hub-card">
+                <span class="hub-tag">DEVELOPMENT</span>
+                <h3>Understanding HTML, CSS and JavaScript</h3>
+                <p>
+                    Learn how the structure, design, and behaviour
+                    of a website fit together.
+                </p>
+                <span class="reading-time">BEGINNER GUIDE</span>
+            </article>
+            <article class="hub-card">
+                <span class="hub-tag">CYBERSECURITY</span>
+                <h3>What Does a Cybersecurity Analyst Do?</h3>
+                <p>
+                    Discover how security professionals help
+                    organisations protect their systems and data.
+                </p>
+                <span class="reading-time">CAREER GUIDE</span>
+            </article>
+            <article class="hub-card">
+                <span class="hub-tag">DEVELOPER TOOLS</span>
+                <h3>Why Developers Use GitHub</h3>
+                <p>
+                    Understand repositories, commits, version control,
+                    and collaborative development.
+                </p>
+                <span class="reading-time">PRACTICAL GUIDE</span>
+            </article>
+        </div>
+        <p class="section-footnote">
+            Article cards are currently informational previews.
+            A full article system can be added later.
+        </p>
+    </section>
+    <!-- LEARNING PATH -->
+    <section class="section content-section" id="journey">
+        <div class="section-heading">
+            <p class="section-label">05 / THE ROAD AHEAD</p>
+            <h2>Always <span class="gradient-text">Evolving.</span></h2>
+            <p class="section-intro">
+                A learning roadmap for building practical skills
+                in development and cybersecurity.
+            </p>
+        </div>
+        <div class="roadmap">
+            <div class="roadmap-item">
+                <span class="roadmap-marker">01</span>
+                <div>
+                    <h3>Web Foundations</h3>
+                    <p>HTML, CSS, JavaScript, Git and GitHub.</p>
+                </div>
+                <span class="roadmap-state">BUILDING</span>
+            </div>
+            <div class="roadmap-item">
+                <span class="roadmap-marker">02</span>
+                <div>
+                    <h3>Programming & Linux</h3>
+                    <p>Python fundamentals, command-line skills, and Linux.</p>
+                </div>
+                <span class="roadmap-state">NEXT</span>
+            </div>
+            <div class="roadmap-item">
+                <span class="roadmap-marker">03</span>
+                <div>
+                    <h3>Networking & Security</h3>
+                    <p>Protocols, system security, and threat awareness.</p>
+                </div>
+                <span class="roadmap-state">UPCOMING</span>
+            </div>
+            <div class="roadmap-item">
+                <span class="roadmap-marker">04</span>
+                <div>
+                    <h3>Practical Security Labs</h3>
+                    <p>Legal lab environments, defensive tools, and documentation.</p>
+                </div>
+                <span class="roadmap-state">UPCOMING</span>
+            </div>
+        </div>
+    </section>
+    <!-- CONTACT -->
+    <section class="section content-section" id="contact">
+        <div class="contact-box">
+            <p class="section-label">06 / LET'S CONNECT</p>
+            <h2>Let's Build Something <span class="gradient-text">Meaningful.</span></h2>
+            <p class="section-intro">
+                Interested in technology, cybersecurity, or creative
+                digital projects? Explore my work and follow my journey.
+            </p>
+            <div class="hero-buttons contact-buttons">
+                <a class="button button-primary"
+                   href="https://github.com/"
+                   target="_blank"
+                   rel="noopener noreferrer">
+                    EXPLORE GITHUB ↗
+                </a>
+                <a class="button button-outline"
+                   href="#home">
+                    BACK TO TOP ↑
+                </a>
+            </div>
+            <p class="contact-note">
+                Replace the GitHub link with your actual profile URL when ready.
+            </p>
+        </div>
+    </section>
+</main>
+<footer class="footer">
+    <a href="#home" class="logo footer-logo">MAUTON<span>.EXE</span></a>
+    <p>Learning today. Building tomorrow. Securing the future.</p>
+    <p class="copyright">© <span id="year">2026</span> MAUTON.EXE. Built with curiosity.</p>
+</footer>
+<button class="back-to-top" id="backToTop" aria-label="Back to top">↑</button>
+</body>
+</html>
